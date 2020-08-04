@@ -1,0 +1,40 @@
+.bmi-result {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.form{
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 30px;
+    padding: 30px;
+    border-color: rgb(235, 4, 4);
+    border-style: solid
+  }
+.info{
+    text-align: center;
+}
+  h1 {
+    text-align: center;
+  }
+
+  .red {
+      color: red;
+      font-weight: bold;
+
+  }
+
+  p {
+      text-align: center;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  .main {
+     background-color: rgb(243, 196, 179);
+
+  }
