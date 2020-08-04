@@ -162,10 +162,10 @@ class App extends React.Component {
           <div className="row">
             <div className="col-xs-12">
               <h1>Fitness Calculator</h1>
-              <p>Enter your age, weight, and height below.</p>
             </div>
           </div>
           <div className="form">
+          <p>Enter your age, weight, and height below.</p>
             <div className="ui form">
               <form>
                 <div className="form-group">
@@ -239,6 +239,8 @@ class App extends React.Component {
           </div>
           </div>
         </div>
+        <p><small>Mark Hernandez 2020</small></p>
+
         </div>
       );
     }
