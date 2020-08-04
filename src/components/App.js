@@ -48,13 +48,10 @@ class App extends React.Component {
   
     calculateBMI(){
       if (this.state.weight && this.state.heightFeet && this.state.heightInch){
-        // BMI Formula = (WEIGHT[in pounds] / (HEIGHT[in inches] * HEIGHT[in inches])) * 703;
         let INCHES_IN_FEET = 12;
   
         var height = Number(this.state.heightFeet);
-            // convert feet to inches
             height *= INCHES_IN_FEET;
-            // add the inches input field
             height += Number(this.state.heightInch);
   
         let weight = this.state.weight;
@@ -71,9 +68,7 @@ class App extends React.Component {
         let INCHES_IN_FEET = 12;
   
         var height = Number(this.state.heightFeet);
-            // convert feet to inches
             height *= INCHES_IN_FEET;
-            // add the inches input field
             height += Number(this.state.heightInch);
 
         let weight = this.state.weight;
@@ -92,9 +87,7 @@ class App extends React.Component {
         let INCHES_IN_FEET = 12;
   
         var height = Number(this.state.heightFeet);
-            // convert feet to inches
             height *= INCHES_IN_FEET;
-            // add the inches input field
             height += Number(this.state.heightInch);
 
         let weight = this.state.weight;
