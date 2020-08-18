@@ -239,7 +239,7 @@ class App extends React.Component {
           </div>
           </div>
         </div>
-        <p><small>Mark Hernandez 2020</small></p>
+        <p><small>Mark Hernandez - 2020</small></p>
 
         </div>
       );
